@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "air_fresh.h": "c",
+        "aos.h": "c",
+        "yloop.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "vfs.h": "c",
+        "log.h": "c",
+        "hal.h": "c",
+        "soc.h": "c",
+        "qspi.h": "c"
+    }
+}

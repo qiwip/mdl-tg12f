@@ -1,0 +1,2349 @@
+Boot Reason:        
+BL_RST_POWER_OFF
+
+
+start-----------hal
+[MTD] >>>>>> Hanlde info Dump >>>>>>
+
+      name PARAM2
+      id 0
+      offset 001fc000(2080768)
+      size 00002000(8Kbytes)
+      xip_addr 00000000
+[MTD] <<<<<< Hanlde info End <<<<<<
+
+Read slot:1
+read devicename is 
+not valied MAC
+Efuse MAC:7C:B9:4C:47:E8:6F
+No written slot found
+[BL] [SEC] TRNG Handler
+
+[WF] Running Wi-Fi FW thread...
+1th channel,lo_vco_freq_cw=141
+2th channel,lo_vco_freq_cw=140
+3th channel,lo_vco_freq_cw=139
+4th channel,lo_vco_freq_cw=138
+5th channel,lo_vco_freq_cw=136
+6th channel,lo_vco_freq_cw=135
+7th channel,lo_vco_freq_cw=134
+8th channel,lo_vco_freq_cw=133
+9th channel,lo_vco_freq_cw=132
+10th channel,lo_vco_freq_cw=130
+11th channel,lo_vco_freq_cw=129
+12th channel,lo_vco_freq_cw=128
+13th channel,lo_vco_freq_cw=127
+14th channel,lo_vco_freq_cw=126
+15th channel,lo_vco_freq_cw=124
+16th channel,lo_vco_freq_cw=123
+17th channel,lo_vco_freq_cw=122
+18th channel,lo_vco_freq_cw=121
+19th channel,lo_vco_freq_cw=120
+20th channel,lo_vco_freq_cw=119
+21th channel,lo_vco_freq_cw=118
+0th channel,vco_idac_cw=9
+1th channel,vco_idac_cw=8
+2th channel,vco_idac_cw=8
+3th channel,vco_idac_cw=8
+4th channel,vco_idac_cw=8
+5th channel,vco_idac_cw=8
+6th channel,vco_idac_cw=8
+7th channel,vco_idac_cw=8
+8th channel,vco_idac_cw=8
+9th channel,vco_idac_cw=8
+10th channel,vco_idac_cw=8
+11th channel,vco_idac_cw=8
+12th channel,vco_idac_cw=7
+13th channel,vco_idac_cw=7
+14th channel,vco_idac_cw=7
+15th channel,vco_idac_cw=7
+16th channel,vco_idac_cw=7
+17th channel,vco_idac_cw=7
+18th channel,vco_idac_cw=7
+19th channel,vco_idac_cw=7
+20th channel,vco_idac_cw=7
+LO locked 9 130
+rosdac_i_gc3=33
+rosdac_i_gc2=33
+rosdac_i_gc1=33
+rosdac_i_gc0=33
+rosdac_q_gc3=34
+rosdac_q_gc2=34
+rosdac_q_gc1=34
+rosdac_q_gc0=34
+rbb_cap1_fc_i=27,rbb_cap2_fc_i=27,rbb_cap1_fc_q=27,rbb_cap2_fc_q=27
+new rbb_cap1_fc_i=51,rbb_cap2_fc_i=51,rbb_cap1_fc_q=51,rbb_cap2_fc_q=51
+LO locked 9 130
+amp=128,step=32,adc_mean_i=85
+amp=160,step=16,adc_mean_i=124
+tmx_cs=0, tmxcs_pwr_avg=36919, tmxcs_pwr_avg>>10=36
+tmx_cs=1, tmxcs_pwr_avg=48752, tmxcs_pwr_avg>>10=47
+tmx_cs=2, tmxcs_pwr_avg=66056, tmxcs_pwr_avg>>10=64
+tmx_cs=3, tmxcs_pwr_avg=90087, tmxcs_pwr_avg>>10=87
+tmx_cs=4, tmxcs_pwr_avg=114206, tmxcs_pwr_avg>>10=111
+tmx_cs=5, tmxcs_pwr_avg=126986, tmxcs_pwr_avg>>10=124
+tmx_cs=6, tmxcs_pwr_avg=114667, tmxcs_pwr_avg>>10=111
+tmx_cs=7, tmxcs_pwr_avg=88869, tmxcs_pwr_avg>>10=86
+tmx_cs_max=5, tmxcs_pwr_max=126986, tmxcs_pwr_max>>10=124
+amp=256,step=64,adc_mean_i=-48
+amp=320,step=32,adc_mean_i=121
+amp=352,step=16,adc_mean_i=213
+tosdac_i=29,tosdac_q=40,tx_iq_gain_comp=1006,tx_iq_phase_comp=-10
+amp=256,step=64,adc_mean_i=141
+amp=320,step=32,adc_mean_i=255
+tosdac_i=25,tosdac_q=33,tx_iq_gain_comp=1008,tx_iq_phase_comp=-10
+amp=256,step=64,adc_mean_i=169
+amp=320,step=32,adc_mean_i=244
+tosdac_i=30,tosdac_q=41,tx_iq_gain_comp=1002,tx_iq_phase_comp=-9
+amp=272,step=68,adc_mean_i=179
+amp=340,step=34,adc_mean_i=357
+amp=306,step=17,adc_mean_i=262
+tosdac_i=33,tosdac_q=46,tx_iq_gain_comp=993,tx_iq_phase_comp=-10
+amp=224,step=56,adc_mean_i=263
+tosdac_i=35,tosdac_q=47,tx_iq_gain_comp=985,tx_iq_phase_comp=-8
+amp=272,step=68,adc_mean_i=267
+tosdac_i=33,tosdac_q=47,tx_iq_gain_comp=986,tx_iq_phase_comp=-11
+amp=288,step=72,adc_mean_i=247
+tosdac_i=25,tosdac_q=33,tx_iq_gain_comp=985,tx_iq_phase_comp=-8
+amp=304,step=76,adc_mean_i=269
+tosdac_i=23,tosdac_q=32,tx_iq_gain_comp=986,tx_iq_phase_comp=-8
+Done
+Configure IPC...
+Done
+Configure MAC...
+[WF] [KEY] [CFG] nVAP is 2, endidx 10, startidx 8
+------ set default key 4201fa60, key ptr 00000000
+------ set default key 4201fef0, key ptr 00000000
+td_init
+td_reset idx=0
+td_reset idx=1
+Done
+Starting loop...
+
+
+[BL] Initi Wi-Fi with MAC #### 7C:B9:4C:47:E8:6F ####
+hostname: Bouffalolab_tg7100c-47e86f
+[WF] country code CN used, num of channel 13
+-----------------------------------------------------
+[IPC] [TX] Low level size 204, driver size 100, total size 304
+Enable BMX IRQ
+
+[WF] [KEY] [CFG] nVAP is 2, endidx 10, startidx 8
+------ set default key 4201fa60, key ptr 00000000
+------ set default key 4201fef0, key ptr 00000000
+td_init
+td_reset idx=0
+td_reset idx=1
+[version] lmac 5.4.0.0
+[version] version_machw_1 000055FB
+[version] version_machw_2 000001B3
+[version] version_phy_1 00822111
+[version] version_phy_2 00000000
+[version] features 001089DF
+[ME] HT supp 1, VHT supp 0
+bl_main_set_country_code: country code: CN
+[WF] country code CN used, num of channel 13
+country code:CN, support channel nums:13
+wifi init success!!
+[000632]<I> kv version:1.0
+[000634]<A> aos framework init.
+-Welcome to AliOS Things-
+[prt] log level set as: [ 5 ]
+
+--------Firmware info--------
+app: air_fresh,  board: tg7100cevb
+Host: qi
+Branch: 
+Hash: 
+Date: Oct  3 2024 18:08:51
+Kernel: AOS-R-1.3.4
+LinkKit: 2.3.0_FY_1.6.6-15
+APP: app-1.6.6-20241003.180851
+Region env: MAINLAND-ONLINE
+
+[MTD] >>>>>> Hanlde info Dump >>>>>>
+
+      name media
+      id 0
+      offset 001c5000(1855488)
+      size 00002000(8Kbytes)
+      xip_addr 231b4000
+[MTD] <<<<<< Hanlde info End <<<<<<
+
+media magic invalid.
+ali_factory_media_get res = -2
+[000684]<W> try secured ap config!
+[000688]<E> no valied ap config found!
+[000691]<A> get kv save switch state:1, ret:0
+[000696]<I> no history err_code found
+[000701]<A> combo device info not set!
+[000703]<A> scan factory ap, set led ON
+[WF][SM] reload tsen 
+[WF][SM] Exiting ifaceDown state
+[WF][SM] State Action ###ifaceDown### --->>> ###idle###
+[WF][SM] Entering idle state
+Disable Auto Reconnect
+[WF][SM] Exiting idle state
+[WF][SM] State Action ###idle### --->>> ###sniffer###
+[WF][SM] Entering sniffer state
+[002406]<D> apscan switch to chan 1
+[002606]<D> apscan switch to chan 6
+[002806]<D> apscan switch to chan 11
+[003008]<D> apscan switch to chan 1
+[003209]<D> apscan switch to chan 2
+[003409]<D> apscan switch to chan 3
+[003609]<D> apscan switch to chan 4
+[003809]<D> apscan switch to chan 5
+[004009]<D> apscan switch to chan 6
+[004209]<D> apscan switch to chan 7
+[004409]<D> apscan switch to chan 8
+[004609]<D> apscan switch to chan 9
+[004809]<D> apscan switch to chan 10
+[005009]<D> apscan switch to chan 11
+[005209]<D> apscan switch to chan 12
+[005409]<D> apscan switch to chan 13
+[005609]<D> apscan switch to chan 1
+[005609]<D> apscan 3403 ms
+[005612]<A> [FACTORY]scan factory AP result = 0
+[005616]<A> not enter factory mode, start awss
+[005621]<F> enable awss
+
+[WF][SM] Exiting sniffer state
+[WF][SM] State Action ###sniffer### --->>> ###idle###
+[WF][SM] Entering idle state
+[005634]<D> Breeze adv per device
+[005636]<D> normal adv
+Local addr got (00:00:00:00:00:00).
+ble_advertising_start, continue
+Advertising failed to start (err -11)
+[005648]<E> breeze_start_advertising 359 adv fail
+[005752]<A> IOTX_AWSS_START
+[005752]<F> __awss_start
+
+[005754]<I> zconfig_init
+
+Disable Auto Reconnect
+[WF][SM] Exiting idle state
+[WF][SM] State Action ###idle### --->>> ###sniffer###
+[WF][SM] Entering sniffer state
+[007270]<D> enr_frame init done(96)
+[007273]<F> chan 1
+
+[007313]<D> state_code:-0x0403, str_msg=[1] ssid:, mac:6ad0f517b0d0, chn:1, rssi:-62, adha:0
+[007320]<D> state_code:-0x0403, str_msg=[2] ssid:CMCC-uhSt, mac:28d0f517b0d3, chn:1, rssi:-63, adha:0
+[007328]<D> state_code:-0x0403, str_msg=[3] ssid:ChinaNet-YS6t, mac:b805abb6d396, chn:2, rssi:-45, adha
+[007338]<D> state_code:-0x0403, str_msg=[4] ssid:......_plus, mac:f0b4294acab1, chn:1, rssi:-57, adha:0
+[007346]<D> state_code:-0x0403, str_msg=[5] ssid:Air No.5 Legacy, mac:3023039f245c, chn:3, rssi:-69, ad
+[007357]<D> state_code:-0x0403, str_msg=[6] ssid:......, mac:7844fd10dede, chn:1, rssi:-56, adha:0
+[007364]<D> state_code:-0x0403, str_msg=[7] ssid:ChinaNGB-LJBB7z, mac:7c08d98843e9, chn:1, rssi:-93, ad
+[007470]<D> state_code:-0x0403, str_msg=[8] ssid:早起_Wi-Fi5, mac:c2730b5f3580, chn:1, rssi:-93, adha
+[007483]<D> state_code:-0x0403, str_msg=[9] ssid:HUAWEI-A078HL, mac:e83f67ff36a7, chn:1, rssi:-94, adha
+[007545]<F> chan 6
+
+[007555]<D> state_code:-0x0403, str_msg=[10] ssid:, mac:6ad0f518ac91, chn:6, rssi:-78, adha:0
+[007562]<D> state_code:-0x0403, str_msg=[11] ssid:CMCC-XtgE, mac:28d0f518ac94, chn:6, rssi:-98, adha:0
+[007574]<D> state_code:-0x0403, str_msg=[12] ssid:XH_Home, mac:44f7702f356e, chn:7, rssi:-66, adha:0
+[007582]<D> state_code:-0x0403, str_msg=[13] ssid:, mac:46f7702f356e, chn:7, rssi:-66, adha:0
+[007596]<D> state_code:-0x0403, str_msg=[14] ssid:密码18, mac:dcd87c1360e7, chn:6, rssi:-37, adha:0
+[007606]<D> state_code:-0x0403, str_msg=[15] ssid:ChinaNet-102, mac:e01954037b4a, chn:6, rssi:-73, adha
+[007620]<D> state_code:-0x0403, str_msg=[16] ssid:, mac:e21954337b4a, chn:6, rssi:-75, adha:0
+[007703]<D> state_code:-0x0403, str_msg=[17] ssid:TP-LIN-止戈为武, mac:603a7c4616e1, chn:6, rssi:-9
+[007754]<D> state_code:-0x0403, str_msg=[18] ssid:ChinaNet-QXWn, mac:0860836f44de, chn:4, rssi:-61, adh
+[007799]<F> chan 11
+
+[007811]<D> state_code:-0x0403, str_msg=[19] ssid:202, mac:34ca815b2176, chn:11, rssi:-96, adha:0
+[007819]<D> state_code:-0x0403, str_msg=[20] ssid:, mac:6ad0f5f1d659, chn:11, rssi:-63, adha:0
+[007827]<D> state_code:-0x0403, str_msg=[21] ssid:CMCC-LRA5, mac:28d0f5f1d65c, chn:11, rssi:-64, adha:0
+[007835]<D> state_code:-0x0403, str_msg=[22] ssid:wang, mac:94f827acac7e, chn:11, rssi:-98, adha:0
+[007858]<D> state_code:-0x0403, str_msg=[23] ssid:CMCC-FbA7, mac:907e4396b14e, chn:10, rssi:-55, adha:0
+[007866]<D> state_code:-0x0403, str_msg=[24] ssid:HomeinnPlus, mac:5c02147d85f6, chn:11, rssi:-97, adha
+[008054]<F> chan 1
+
+[008066]<D> state_code:-0x0403, str_msg=[25] ssid:Redmi_5B60, mac:3ccd57ef5b62, chn:1, rssi:-96, adha:0
+[008082]<D> state_code:-0x0403, str_msg=[26] ssid:早起, mac:c2730b5f3572, chn:1, rssi:-98, adha:0
+[008309]<F> chan 2
+
+[008566]<F> chan 3
+
+[008586]<D> state_code:-0x0403, str_msg=[27] ssid:CMCC-602, mac:e86e447e3620, chn:3, rssi:-97, adha:0
+[008766]<D> state_code:-0x0403, str_msg=[28] ssid:CU_f2C7, mac:b05d16c6a750, chn:2, rssi:-74, adha:0
+[008820]<F> chan 4
+
+[008829]<D> state_code:-0x0403, str_msg=[29] ssid:CMCC-eQUN, mac:9c635ba919a6, chn:4, rssi:-98, adha:0
+[008969]<D> state_code:-0x0403, str_msg=[30] ssid:adi2333, mac:c4518dbc9db8, chn:5, rssi:-93, adha:0
+[009075]<F> chan 5
+
+[009331]<F> chan 6
+
+[009528]<D> state_code:-0x0403, str_msg=[31] ssid:CMCC-uYEZ, mac:d4312718b5e8, chn:6, rssi:-98, adha:0
+[009585]<F> chan 7
+
+[009840]<F> chan 8
+
+[009915]<D> state_code:-0x0403, str_msg=[32] ssid:CMCC-j26s, mac:607ecd96b54c, chn:8, rssi:-89, adha:0
+[009947]<D> state_code:-0x0403, str_msg=[33] ssid:Nninyourarea, mac:94be09915119, chn:9, rssi:-68, adha
+[010095]<F> chan 9
+
+[010155]<D> state_code:-0x0403, str_msg=[34] ssid:CMCC-GUIDE-LINK, mac:96be09915119, chn:9, rssi:-67, a
+[010350]<F> chan 10
+
+[010605]<F> chan 11
+
+[010860]<F> chan 12
+
+[011115]<F> chan 13
+
+[011255]<D> state_code:-0x0403, str_msg=[35] ssid:ChinaNGB-LJ37Nt, mac:dc2a149381cd, chn:13, rssi:-94, 
+[011293]<D> state_code:-0x0403, str_msg=[36] ssid:ChinaNGB-LJCRY6, mac:dc2a14336563, chn:13, rssi:-98, 
+[011371]<F> chan 1
+
+[011626]<F> chan 2
+
+[011883]<F> chan 3
+
+[012138]<F> chan 4
+
+[012331]<D> state_code:-0x0403, str_msg=[37] ssid:CMCC-EVvf, mac:ac5aeeb15060, chn:4, rssi:-97, adha:0
+[012393]<F> chan 5
+
+[012648]<F> chan 6
+
+[012903]<F> chan 7
+
+[013158]<F> chan 8
+
+[013414]<F> chan 9
+
+[013668]<F> chan 10
+
+[013924]<F> chan 11
+
+[014179]<F> chan 13
+
+[014434]<F> chan 1
+
+[014693]<F> chan 6
+
+[014947]<F> chan 11
+
+[015202]<F> chan 1
+
+[015392]<D> state_code:-0x0403, str_msg=[38] ssid:TP-LINK_jx, mac:480eecf6d06d, chn:1, rssi:-98, adha:0
+[015457]<F> chan 2
+
+[015713]<F> chan 3
+
+[015968]<F> chan 4
+
+[016223]<F> chan 5
+
+[016478]<F> chan 6
+
+[016734]<F> chan 7
+
+[016988]<F> chan 8
+
+[017243]<F> chan 9
+
+[017308]<D> state_code:-0x0403, str_msg=[39] ssid:CMCC-29Ax, mac:e88175dd3302, chn:9, rssi:-94, adha:0
+[017498]<F> chan 10
+
+[017753]<F> chan 11
+
+[018008]<F> chan 12
+
+[018263]<F> chan 13
+
+[018518]<F> chan 1
+
+[018773]<F> chan 2
+
+[019028]<F> chan 3
+
+[019283]<F> chan 4
+
+[019538]<F> chan 5
+
+[019794]<F> chan 6
+
+[020048]<F> chan 7
+
+[020303]<F> chan 8
+
+[020559]<F> chan 9
+
+[020813]<F> chan 10
+
+[021068]<F> chan 11
+
+[021323]<F> chan 13
+
+[021578]<F> chan 1
+
+[021833]<F> chan 6
+
+[022088]<F> chan 11
+
+[022343]<F> chan 1
+
+[022600]<F> chan 2
+
+[022854]<F> chan 3
+
+[023109]<F> chan 4
+
+[023364]<F> chan 5
+
+[023619]<F> chan 6
+
+[023874]<F> chan 7
+
+[024130]<F> chan 8
+
+[024384]<F> chan 9
+
+[024639]<F> chan 10
+
+[024894]<F> chan 11
+
+[025046]<D> state_code:-0x0403, str_msg=[40] ssid:Chinanet-2.4G-302, mac:cc2d2181dfb1, chn:11, rssi:-96
+[025149]<F> chan 12
+
+[025404]<F> chan 13
+
+[025659]<F> chan 1
+
+[025914]<F> chan 2
+
+[026169]<F> chan 3
+
+[026426]<F> chan 4
+
+[026681]<F> chan 5
+
+[026938]<F> chan 6
+
+[027193]<F> chan 7
+
+[027448]<F> chan 8
+
+[027703]<F> chan 9
+
+[027958]<F> chan 10
+
+[028213]<F> chan 11
+
+[028468]<F> chan 13
+
+[028723]<F> chan 1
+
+[028979]<F> chan 6
+
+[029233]<F> chan 11
+
+[029488]<F> chan 1
+
+[029744]<F> chan 2
+
+[029999]<F> chan 3
+
+[030256]<F> chan 4
+
+[030510]<F> chan 5
+
+[030765]<F> chan 6
+
+[031021]<F> chan 7
+
+[031276]<F> chan 8
+
+[031531]<F> chan 9
+
+[031789]<F> chan 10
+
+[032044]<F> chan 11
+
+[032299]<F> chan 12
+
+[032554]<F> chan 13
+
+[032809]<F> chan 1
+
+[033064]<F> chan 2
+
+[033319]<F> chan 3
+
+[033574]<F> chan 4
+
+[033830]<F> chan 5
+
+[034085]<F> chan 6
+
+[034164]<D> state_code:-0x0403, str_msg=[41] ssid:603, mac:e2241c98e653, chn:6, rssi:-98, adha:0
+[034341]<F> chan 7
+
+[034596]<F> chan 8
+
+[034806]<D> state_code:-0x0403, str_msg=[42] ssid:CMCC-VGu5, mac:14230aa49674, chn:8, rssi:-91, adha:0
+[034851]<F> chan 9
+
+[035107]<F> chan 10
+
+[035362]<F> chan 11
+
+[035618]<F> chan 13
+
+[035624]<A> clear awss flag
+[035872]<F> chan 1
+
+[036127]<F> chan 6
+
+[036383]<F> chan 11
+
+[036638]<F> chan 1
+
+[036894]<F> chan 2
+
+[037149]<F> chan 3
+
+[037404]<F> chan 4
+
+[037659]<F> chan 5
+
+[037914]<F> chan 6
+
+[038170]<F> chan 7
+
+[038426]<F> chan 8
+
+[038679]<F> chan 9
+
+[038934]<F> chan 10
+
+[039189]<F> chan 11
+
+[039444]<F> chan 12
+
+[039699]<F> chan 13
+
+[039954]<F> chan 1
+
+[040210]<F> chan 2
+
+[040464]<F> chan 3
+
+[040720]<F> chan 4
+
+[040974]<F> chan 5
+
+[041230]<F> chan 6
+
+[041484]<F> chan 7
+
+[041739]<F> chan 8
+
+[041994]<F> chan 9
+
+[042249]<F> chan 10
+
+[042504]<F> chan 11
+
+[042759]<F> chan 13
+
+[043016]<F> chan 1
+
+[043270]<F> chan 6
+
+[043525]<F> chan 11
+
+[043780]<F> chan 1
+
+[044035]<F> chan 2
+
+[044290]<F> chan 3
+
+[044545]<F> chan 4
+
+[044802]<F> chan 5
+
+[045056]<F> chan 6
+
+[045311]<F> chan 7
+
+[045567]<F> chan 8
+
+[045822]<F> chan 9
+
+[046078]<F> chan 10
+
+[046333]<F> chan 11
+
+[046588]<F> chan 12
+
+[046843]<F> chan 13
+
+[047099]<F> chan 1
+
+[047355]<F> chan 2
+
+[047611]<F> chan 3
+
+[047866]<F> chan 4
+
+[048121]<F> chan 5
+
+[048278]<D> state_code:-0x0403, str_msg=[43] ssid:CMCC-HhuN, mac:5484dccc004c, chn:5, rssi:-98, adha:0
+[048376]<F> chan 6
+
+[048631]<F> chan 7
+
+[048886]<F> chan 8
+
+[049141]<F> chan 9
+
+[049147]<D> state_code:-0x0403, str_msg=[44] ssid:Wang7, mac:34ce00367074, chn:9, rssi:-98, adha:0
+[049398]<F> chan 10
+
+[049653]<F> chan 11
+
+[049907]<F> chan 13
+
+[050162]<F> chan 1
+
+[050180]<D> state_code:-0x0403, str_msg=[45] ssid:, mac:bc2ef687a491, chn:1, rssi:-97, adha:0
+[050418]<F> chan 6
+
+[050673]<F> chan 11
+
+[050928]<F> chan 1
+
+[051185]<F> chan 2
+
+[051439]<F> chan 3
+
+[051695]<F> chan 4
+
+[051952]<F> chan 5
+
+[052206]<F> chan 6
+
+[052462]<F> chan 7
+
+[052716]<F> chan 8
+
+[052971]<F> chan 9
+
+[053226]<F> chan 10
+
+[053481]<F> chan 11
+
+[053736]<F> chan 12
+
+[053991]<F> chan 13
+
+[054246]<F> chan 1
+
+[054501]<F> chan 2
+
+[054758]<F> chan 3
+
+[055012]<F> chan 4
+
+[055267]<F> chan 5
+
+[055522]<F> chan 6
+
+[055777]<F> chan 7
+
+[056033]<F> chan 8
+
+[056288]<F> chan 9
+
+[056545]<F> chan 10
+
+[056799]<F> chan 11
+
+[057054]<F> chan 13
+
+[057309]<F> chan 1
+
+[057564]<F> chan 6
+
+[057819]<F> chan 11
+
+[058074]<F> chan 1
+
+[058330]<F> chan 2
+
+[058584]<F> chan 3
+
+[058839]<F> chan 4
+
+[059095]<F> chan 5
+
+[059349]<F> chan 6
+
+[059604]<F> chan 7
+
+[059859]<F> chan 8
+
+[060114]<F> chan 9
+
+[060369]<F> chan 10
+
+[060625]<F> chan 11
+
+[060879]<F> chan 12
+
+[061134]<F> chan 13
+
+[061389]<F> chan 1
+
+[061644]<F> chan 2
+
+[061900]<F> chan 3
+
+[062155]<F> chan 4
+
+[062412]<F> chan 5
+
+[062666]<F> chan 6
+
+[062921]<F> chan 7
+
+[063176]<F> chan 8
+
+[063431]<F> chan 9
+
+[063686]<F> chan 10
+
+[063941]<F> chan 11
+
+[064196]<F> chan 13
+
+[064451]<F> chan 1
+
+[064706]<F> chan 6
+
+[064962]<F> chan 11
+
+[065217]<F> chan 1
+
+[065473]<F> chan 2
+
+[065728]<F> chan 3
+
+[065983]<F> chan 4
+
+[066238]<F> chan 5
+
+[066493]<F> chan 6
+
+[066750]<F> chan 7
+
+[067005]<F> chan 8
+
+[067260]<F> chan 9
+
+[067515]<F> chan 10
+
+[067770]<F> chan 11
+
+[068025]<F> chan 12
+
+[068280]<F> chan 13
+
+[068537]<F> chan 1
+
+[068792]<F> chan 2
+
+[069048]<F> chan 3
+
+[069303]<F> chan 4
+
+[069558]<F> chan 5
+
+[069813]<F> chan 6
+
+[070068]<F> chan 7
+
+[070323]<F> chan 8
+
+[070578]<F> chan 9
+
+[070833]<F> chan 10
+
+[071088]<F> chan 11
+
+[071344]<F> chan 13
+
+[071598]<F> chan 1
+
+[071854]<F> chan 6
+
+[072110]<F> chan 11
+
+[072299]<D> state_code:-0x0403, str_msg=[46] ssid:meng, mac:f61c7105e0e1, chn:11, rssi:-96, adha:0
+[072364]<F> chan 1
+
+[072619]<F> chan 2
+
+[072875]<F> chan 3
+
+[073130]<F> chan 4
+
+[073386]<F> chan 5
+
+[073640]<F> chan 6
+
+[073896]<F> chan 7
+
+[074151]<F> chan 8
+
+[074406]<F> chan 9
+
+[074661]<F> chan 10
+
+[074916]<F> chan 11
+
+[075171]<F> chan 12
+
+[075426]<F> chan 13
+
+[075682]<F> chan 1
+
+[075936]<F> chan 2
+
+[076191]<F> chan 3
+
+[076446]<F> chan 4
+
+[076701]<F> chan 5
+
+[076956]<F> chan 6
+
+[077212]<F> chan 7
+
+[077467]<F> chan 8
+
+[077722]<F> chan 9
+
+[077979]<F> chan 10
+
+[078234]<F> chan 11
+
+[078489]<F> chan 13
+
+[078744]<F> chan 1
+
+[079000]<F> chan 6
+
+[079257]<F> chan 11
+
+[079511]<F> chan 1
+
+[079766]<F> chan 2
+
+[080022]<F> chan 3
+
+[080277]<F> chan 4
+
+[080532]<F> chan 5
+
+[080787]<F> chan 6
+
+[081042]<F> chan 7
+
+[081297]<F> chan 8
+
+[081552]<F> chan 9
+
+[081807]<F> chan 10
+
+[082061]<F> chan 11
+
+[082316]<F> chan 12
+
+[082571]<F> chan 13
+
+[082828]<F> chan 1
+
+[083084]<F> chan 2
+
+[083339]<F> chan 3
+
+[083593]<F> chan 4
+
+[083849]<F> chan 5
+
+[084104]<F> chan 6
+
+[084359]<F> chan 7
+
+[084614]<F> chan 8
+
+[084870]<F> chan 9
+
+[085125]<F> chan 10
+
+[085380]<F> chan 11
+
+[085635]<F> chan 13
+
+[085890]<F> chan 1
+
+[086147]<F> chan 6
+
+[086401]<F> chan 11
+
+[086656]<F> chan 1
+
+[086911]<F> chan 2
+
+[087166]<F> chan 3
+
+[087421]<F> chan 4
+
+[087676]<F> chan 5
+
+[087931]<F> chan 6
+
+[088188]<F> chan 7
+
+[088442]<F> chan 8
+
+[088697]<F> chan 9
+
+[088952]<F> chan 10
+
+[089208]<F> chan 11
+
+[089462]<F> chan 12
+
+[089717]<F> chan 13
+
+[089972]<F> chan 1
+
+[090228]<F> chan 2
+
+[090484]<F> chan 3
+
+[090740]<F> chan 4
+
+[090995]<F> chan 5
+
+[091251]<F> chan 6
+
+[091506]<F> chan 7
+
+[091761]<F> chan 8
+
+[092017]<F> chan 9
+
+[092271]<F> chan 10
+
+[092527]<F> chan 11
+
+[092782]<F> chan 13
+
+[093037]<F> chan 1
+
+[093292]<F> chan 6
+
+[093547]<F> chan 11
+
+[093803]<F> chan 1
+
+[094058]<F> chan 2
+
+[094313]<F> chan 3
+
+[094568]<F> chan 4
+
+[094823]<F> chan 5
+
+[095078]<F> chan 6
+
+[095333]<F> chan 7
+
+[095428]<D> state_code:-0x0403, str_msg=[47] ssid:25c829b1922d3123_miwifi, mac:46f7702f356e, chn:7, rss
+[095588]<F> chan 8
+
+[095843]<F> chan 9
+
+[096098]<F> chan 10
+
+[096353]<F> chan 11
+
+[096608]<F> chan 12
+
+[096864]<F> chan 13
+
+[097118]<F> chan 1
+
+[097373]<F> chan 2
+
+[097628]<F> chan 3
+
+[097883]<F> chan 4
+
+[098139]<F> chan 5
+
+[098394]<F> chan 6
+
+[098649]<F> chan 7
+
+[098904]<F> chan 8
+
+[099159]<F> chan 9
+
+[099415]<F> chan 10
+
+[099670]<F> chan 11
+
+[099925]<F> chan 13
+
+[100180]<F> chan 1
+
+[100435]<F> chan 6
+
+[100694]<F> chan 11
+
+[100949]<F> chan 1
+
+[101204]<F> chan 2
+
+[101458]<F> chan 3
+
+[101714]<F> chan 4
+
+[101971]<F> chan 5
+
+[102226]<F> chan 6
+
+[102482]<F> chan 7
+
+[102738]<F> chan 8
+
+[102992]<F> chan 9
+
+[103247]<F> chan 10
+
+[103503]<F> chan 11
+
+[103757]<F> chan 12
+
+[104012]<F> chan 13
+
+[104267]<F> chan 1
+
+[104523]<F> chan 2
+
+[104778]<F> chan 3
+
+[105033]<F> chan 4
+
+[105288]<F> chan 5
+
+[105543]<F> chan 6
+
+[105800]<F> chan 7
+
+[106054]<F> chan 8
+
+[106309]<F> chan 9
+
+[106564]<F> chan 10
+
+[106820]<F> chan 11
+
+[107075]<F> chan 13
+
+[107330]<F> chan 1
+
+[107585]<F> chan 6
+
+[107840]<F> chan 11
+
+[108095]<F> chan 1
+
+[108352]<F> chan 2
+
+[108609]<F> chan 3
+
+[108865]<F> chan 4
+
+[109120]<F> chan 5
+
+[109375]<F> chan 6
+
+[109631]<F> chan 7
+
+[109885]<F> chan 8
+
+[110140]<F> chan 9
+
+[110396]<F> chan 10
+
+[110652]<F> chan 11
+
+[110907]<F> chan 12
+
+[111162]<F> chan 13
+
+[111418]<F> chan 1
+
+[111673]<F> chan 2
+
+[111928]<F> chan 3
+
+[112183]<F> chan 4
+
+[112438]<F> chan 5
+
+[112693]<F> chan 6
+
+[112778]<D> state_code:-0x0403, str_msg=[48] ssid:Huawei-Cjy, mac:24da333f3dac, chn:6, rssi:-98, adha:0
+[112956]<F> chan 7
+
+[113211]<F> chan 8
+
+[113466]<F> chan 9
+
+[113721]<F> chan 10
+
+[113977]<F> chan 11
+
+[114232]<F> chan 13
+
+[114487]<F> chan 1
+
+[114742]<F> chan 6
+
+[114998]<F> chan 11
+
+[115253]<F> chan 1
+
+[115508]<F> chan 2
+
+[115764]<F> chan 3
+
+[116019]<F> chan 4
+
+[116275]<F> chan 5
+
+[116530]<F> chan 6
+
+[116784]<F> chan 7
+
+[117039]<F> chan 8
+
+[117294]<F> chan 9
+
+[117549]<F> chan 10
+
+[117804]<F> chan 11
+
+[118059]<F> chan 12
+
+[118315]<F> chan 13
+
+[118570]<F> chan 1
+
+[118825]<F> chan 2
+
+[119081]<F> chan 3
+
+[119335]<F> chan 4
+
+[119590]<F> chan 5
+
+[119845]<F> chan 6
+
+[120100]<F> chan 7
+
+[120355]<F> chan 8
+
+[120610]<F> chan 9
+
+[120865]<F> chan 10
+
+[121120]<F> chan 11
+
+[121375]<F> chan 13
+
+[121630]<F> chan 1
+
+[121885]<F> chan 6
+
+[122141]<F> chan 11
+
+[122396]<F> chan 1
+
+[122651]<F> chan 2
+
+[122908]<F> chan 3
+
+[123163]<F> chan 4
+
+[123419]<F> chan 5
+
+[123674]<F> chan 6
+
+[123931]<F> chan 7
+
+[124186]<F> chan 8
+
+[124441]<F> chan 9
+
+[124696]<F> chan 10
+
+[124951]<F> chan 11
+
+[125206]<F> chan 12
+
+[125461]<F> chan 13
+
+[125716]<F> chan 1
+
+[125971]<F> chan 2
+
+[126226]<F> chan 3
+
+[126481]<F> chan 4
+
+[126737]<F> chan 5
+
+[126991]<F> chan 6
+
+[127246]<F> chan 7
+
+[127501]<F> chan 8
+
+[127756]<F> chan 9
+
+[128012]<F> chan 10
+
+[128267]<F> chan 11
+
+[128522]<F> chan 13
+
+[128777]<F> chan 1
+
+[129032]<F> chan 6
+
+[129288]<F> chan 11
+
+[129543]<F> chan 1
+
+[129798]<F> chan 2
+
+[130053]<F> chan 3
+
+[130308]<F> chan 4
+
+[130563]<F> chan 5
+
+[130819]<F> chan 6
+
+[131076]<F> chan 7
+
+[131331]<F> chan 8
+
+[131587]<F> chan 9
+
+[131841]<F> chan 10
+
+[132096]<F> chan 11
+
+[132351]<F> chan 12
+
+[132606]<F> chan 13
+
+[132861]<F> chan 1
+
+[133116]<F> chan 2
+
+[133373]<F> chan 3
+
+[133628]<F> chan 4
+
+[133888]<F> chan 5
+
+[134142]<F> chan 6
+
+[134397]<F> chan 7
+
+[134652]<F> chan 8
+
+[134907]<F> chan 9
+
+[135162]<F> chan 10
+
+[135417]<F> chan 11
+
+[135672]<F> chan 13
+
+[135927]<F> chan 1
+
+[136182]<F> chan 6
+
+[136438]<F> chan 11
+
+[136693]<F> chan 1
+
+[136926]<D> state_code:-0x0403, str_msg=[49] ssid:ChinaNet-cHpA, mac:001f8ff7fbac, chn:1, rssi:-88, adh
+[136948]<F> chan 2
+
+[137203]<F> chan 3
+
+[137458]<F> chan 4
+
+[137714]<F> chan 5
+
+[137968]<F> chan 6
+
+[138224]<F> chan 7
+
+[138479]<F> chan 8
+
+[138734]<F> chan 9
+
+[138989]<F> chan 10
+
+[139245]<F> chan 11
+
+[139500]<F> chan 12
+
+[139755]<F> chan 13
+
+[140010]<F> chan 1
+
+[140265]<F> chan 2
+
+[140521]<F> chan 3
+
+[140776]<F> chan 4
+
+[141032]<F> chan 5
+
+[141288]<F> chan 6
+
+[141543]<F> chan 7
+
+[141798]<F> chan 8
+
+[142053]<F> chan 9
+
+[142308]<F> chan 10
+
+[142563]<F> chan 11
+
+[142818]<F> chan 13
+
+[143073]<F> chan 1
+
+[143328]<F> chan 6
+
+[143583]<F> chan 11
+
+[143838]<F> chan 1
+
+[144093]<F> chan 2
+
+[144349]<F> chan 3
+
+[144604]<F> chan 4
+
+[144859]<F> chan 5
+
+[145114]<F> chan 6
+
+[145369]<F> chan 7
+
+[145624]<F> chan 8
+
+[145879]<F> chan 9
+
+[146134]<F> chan 10
+
+[146389]<F> chan 11
+
+[146645]<F> chan 12
+
+[146900]<F> chan 13
+
+[147155]<F> chan 1
+
+[147410]<F> chan 2
+
+[147665]<F> chan 3
+
+[147920]<F> chan 4
+
+[148175]<F> chan 5
+
+[148431]<F> chan 6
+
+[148685]<F> chan 7
+
+[148941]<F> chan 8
+
+[149197]<F> chan 9
+
+[149451]<F> chan 10
+
+[149706]<F> chan 11
+
+[149962]<F> chan 13
+
+[150217]<F> chan 1
+
+[150402]<D> state_code:-0x0403, str_msg=[50] ssid:ChinaNet-sEQz, mac:0c6abc56eebd, chn:1, rssi:-95, adh
+[150475]<F> chan 6
+
+[150730]<F> chan 11
+
+[150987]<F> chan 1
+
+[151242]<F> chan 2
+
+[151498]<F> chan 3
+
+[151753]<F> chan 4
+
+[152009]<F> chan 5
+
+[152264]<F> chan 6
+
+[152520]<F> chan 7
+
+[152776]<F> chan 8
+
+[153031]<F> chan 9
+
+[153286]<F> chan 10
+
+[153541]<F> chan 11
+
+[153796]<F> chan 12
+
+[154053]<F> chan 13
+
+[154307]<F> chan 1
+
+[154562]<F> chan 2
+
+[154817]<F> chan 3
+
+[155072]<F> chan 4
+
+[155327]<F> chan 5
+
+[155582]<F> chan 6
+
+[155836]<F> chan 7
+
+[156091]<F> chan 8
+
+[156346]<F> chan 9
+
+[156601]<F> chan 10
+
+[156857]<F> chan 11
+
+[157114]<F> chan 13
+
+[157368]<F> chan 1
+
+[157624]<F> chan 6
+
+[157879]<F> chan 11
+
+[158134]<F> chan 1
+
+[158389]<F> chan 2
+
+[158645]<F> chan 3
+
+[158900]<F> chan 4
+
+[159155]<F> chan 5
+
+[159410]<F> chan 6
+
+[159665]<F> chan 7
+
+[159919]<F> chan 8
+
+[160175]<F> chan 9
+
+[160430]<F> chan 10
+
+[160684]<F> chan 11
+
+[160939]<F> chan 12
+
+[161194]<F> chan 13
+
+[161449]<F> chan 1
+
+[161704]<F> chan 2
+
+[161959]<F> chan 3
+
+[162214]<F> chan 4
+
+[162469]<F> chan 5
+
+[162724]<F> chan 6
+
+[162979]<F> chan 7
+
+[163234]<F> chan 8
+
+[163490]<F> chan 9
+
+[163745]<F> chan 10
+
+[164000]<F> chan 11
+
+[164256]<F> chan 13
+
+[164511]<F> chan 1
+
+[164766]<F> chan 6
+
+[165022]<F> chan 11
+
+[165277]<F> chan 1
+
+[165532]<F> chan 2
+
+[165787]<F> chan 3
+
+[166042]<F> chan 4
+
+[166298]<F> chan 5
+
+[166552]<F> chan 6
+
+[166807]<F> chan 7
+
+[167062]<F> chan 8
+
+[167317]<F> chan 9
+
+[167572]<F> chan 10
+
+[167827]<F> chan 11
+
+[168082]<F> chan 12
+
+[168337]<F> chan 13
+
+[168594]<F> chan 1
+
+[168848]<F> chan 2
+
+[169104]<F> chan 3
+
+[169359]<F> chan 4
+
+[169615]<F> chan 5
+
+[169870]<F> chan 6
+
+[170126]<F> chan 7
+
+[170381]<F> chan 8
+
+[170636]<F> chan 9
+
+[170891]<F> chan 10
+
+[171146]<F> chan 11
+
+[171402]<F> chan 13
+
+[171657]<F> chan 1
+
+[171912]<F> chan 6
+
+[172167]<F> chan 11
+
+[172422]<F> chan 1
+
+[172678]<F> chan 2
+
+[172935]<F> chan 3
+
+[173190]<F> chan 4
+
+[173447]<F> chan 5
+
+[173702]<F> chan 6
+
+[173957]<F> chan 7
+
+[174212]<F> chan 8
+
+[174466]<F> chan 9
+
+[174721]<F> chan 10
+
+[174978]<F> chan 11
+
+[175233]<F> chan 12
+
+[175490]<F> chan 13
+
+[175744]<F> chan 1
+
+[175999]<F> chan 2
+
+[176254]<F> chan 3
+
+[176509]<F> chan 4
+
+[176764]<F> chan 5
+
+[177019]<F> chan 6
+
+[177276]<F> chan 7
+
+[177531]<F> chan 8
+
+[177785]<F> chan 9
+
+[178040]<F> chan 10
+
+[178296]<F> chan 11
+
+[178551]<F> chan 13
+
+[178806]<F> chan 1
+
+[179064]<F> chan 6
+
+[179236]<D> state_code:-0x0403, str_msg=[51] ssid:LC, mac:42701b63e3df, chn:6, rssi:-98, adha:0
+[179318]<F> chan 11
+
+[179334]<D> state_code:-0x0403, str_msg=[52] ssid:, mac:d8b04ced5998, chn:11, rssi:-98, adha:0
+[179370]<D> state_code:-0x0403, str_msg=[53] ssid:TP-LINK_AX6000, mac:f88c213f3a1a, chn:11, rssi:-97, a
+[179574]<F> chan 1
+
+[179652]<D> state_code:-0x0403, str_msg=[54] ssid:ChinaNet-j2HK, mac:60bb0cdb9ec6, chn:1, rssi:-83, adh
+Boot Reason:        
+BL_RST_POWER_OFF
+
+
+start-----------hal
+[MTD] >>>>>> Hanlde info Dump >>>>>>
+
+      name PARAM2
+      id 0
+      offset 001fc000(2080768)
+      size 00002000(8Kbytes)
+      xip_addr 00000000
+[MTD] <<<<<< Hanlde info End <<<<<<
+
+Read slot:1
+read devicename is 
+not valied MAC
+Efuse MAC:7C:B9:4C:47:E8:6F
+No written slot found
+[BL] [SEC] TRNG Handler
+
+[WF] Running Wi-Fi FW thread...
+1th channel,lo_vco_freq_cw=141
+2th channel,lo_vco_freq_cw=140
+3th channel,lo_vco_freq_cw=139
+4th channel,lo_vco_freq_cw=138
+5th channel,lo_vco_freq_cw=136
+6th channel,lo_vco_freq_cw=135
+7th channel,lo_vco_freq_cw=134
+8th channel,lo_vco_freq_cw=133
+9th channel,lo_vco_freq_cw=132
+10th channel,lo_vco_freq_cw=130
+11th channel,lo_vco_freq_cw=129
+12th channel,lo_vco_freq_cw=128
+13th channel,lo_vco_freq_cw=127
+14th channel,lo_vco_freq_cw=126
+15th channel,lo_vco_freq_cw=125
+16th channel,lo_vco_freq_cw=123
+17th channel,lo_vco_freq_cw=122
+18th channel,lo_vco_freq_cw=121
+19th channel,lo_vco_freq_cw=120
+20th channel,lo_vco_freq_cw=119
+21th channel,lo_vco_freq_cw=118
+0th channel,vco_idac_cw=9
+1th channel,vco_idac_cw=8
+2th channel,vco_idac_cw=8
+3th channel,vco_idac_cw=8
+4th channel,vco_idac_cw=8
+5th channel,vco_idac_cw=7
+6th channel,vco_idac_cw=8
+7th channel,vco_idac_cw=7
+8th channel,vco_idac_cw=8
+9th channel,vco_idac_cw=8
+10th channel,vco_idac_cw=8
+11th channel,vco_idac_cw=8
+12th channel,vco_idac_cw=7
+13th channel,vco_idac_cw=7
+14th channel,vco_idac_cw=7
+15th channel,vco_idac_cw=7
+16th channel,vco_idac_cw=7
+17th channel,vco_idac_cw=7
+18th channel,vco_idac_cw=7
+19th channel,vco_idac_cw=7
+20th channel,vco_idac_cw=7
+LO locked 9 130
+rosdac_i_gc3=33
+rosdac_i_gc2=33
+rosdac_i_gc1=33
+rosdac_i_gc0=33
+rosdac_q_gc3=34
+rosdac_q_gc2=34
+rosdac_q_gc1=34
+rosdac_q_gc0=34
+rbb_cap1_fc_i=27,rbb_cap2_fc_i=27,rbb_cap1_fc_q=27,rbb_cap2_fc_q=27
+new rbb_cap1_fc_i=51,rbb_cap2_fc_i=51,rbb_cap1_fc_q=51,rbb_cap2_fc_q=51
+LO locked 9 130
+amp=128,step=32,adc_mean_i=92
+amp=160,step=16,adc_mean_i=136
+tmx_cs=0, tmxcs_pwr_avg=39676, tmxcs_pwr_avg>>10=38
+tmx_cs=1, tmxcs_pwr_avg=52130, tmxcs_pwr_avg>>10=50
+tmx_cs=2, tmxcs_pwr_avg=70430, tmxcs_pwr_avg>>10=68
+tmx_cs=3, tmxcs_pwr_avg=95684, tmxcs_pwr_avg>>10=93
+tmx_cs=4, tmxcs_pwr_avg=123038, tmxcs_pwr_avg>>10=120
+tmx_cs=5, tmxcs_pwr_avg=138276, tmxcs_pwr_avg>>10=135
+tmx_cs=6, tmxcs_pwr_avg=125823, tmxcs_pwr_avg>>10=122
+tmx_cs=7, tmxcs_pwr_avg=97768, tmxcs_pwr_avg>>10=95
+tmx_cs_max=5, tmxcs_pwr_max=138276, tmxcs_pwr_max>>10=135
+amp=256,step=64,adc_mean_i=-18
+amp=320,step=32,adc_mean_i=165
+amp=352,step=16,adc_mean_i=267
+tosdac_i=29,tosdac_q=40,tx_iq_gain_comp=1007,tx_iq_phase_comp=-9
+amp=256,step=64,adc_mean_i=162
+amp=320,step=32,adc_mean_i=285
+tosdac_i=24,tosdac_q=34,tx_iq_gain_comp=1001,tx_iq_phase_comp=-10
+amp=256,step=64,adc_mean_i=182
+amp=320,step=32,adc_mean_i=263
+tosdac_i=30,tosdac_q=40,tx_iq_gain_comp=993,tx_iq_phase_comp=-9
+amp=272,step=68,adc_mean_i=212
+tosdac_i=34,tosdac_q=45,tx_iq_gain_comp=996,tx_iq_phase_comp=-10
+amp=224,step=56,adc_mean_i=289
+tosdac_i=35,tosdac_q=47,tx_iq_gain_comp=989,tx_iq_phase_comp=-14
+amp=272,step=68,adc_mean_i=293
+tosdac_i=33,tosdac_q=47,tx_iq_gain_comp=992,tx_iq_phase_comp=-9
+amp=288,step=72,adc_mean_i=274
+tosdac_i=24,tosdac_q=33,tx_iq_gain_comp=988,tx_iq_phase_comp=-8
+amp=304,step=76,adc_mean_i=299
+tosdac_i=25,tosdac_q=34,tx_iq_gain_comp=993,tx_iq_phase_comp=-12
+Done
+Configure IPC...
+Done
+Configure MAC...
+[WF] [KEY] [CFG] nVAP is 2, endidx 10, startidx 8
+------ set default key 4201fa60, key ptr 00000000
+------ set default key 4201fef0, key ptr 00000000
+td_init
+td_reset idx=0
+td_reset idx=1
+Done
+Starting loop...
+
+
+[BL] Initi Wi-Fi with MAC #### 7C:B9:4C:47:E8:6F ####
+hostname: Bouffalolab_tg7100c-47e86f
+[WF] country code CN used, num of channel 13
+-----------------------------------------------------
+[IPC] [TX] Low level size 204, driver size 100, total size 304
+Enable BMX IRQ
+
+[WF] [KEY] [CFG] nVAP is 2, endidx 10, startidx 8
+------ set default key 4201fa60, key ptr 00000000
+------ set default key 4201fef0, key ptr 00000000
+td_init
+td_reset idx=0
+td_reset idx=1
+[version] lmac 5.4.0.0
+[version] version_machw_1 000055FB
+[version] version_machw_2 000001B3
+[version] version_phy_1 00822111
+[version] version_phy_2 00000000
+[version] features 001089DF
+[ME] HT supp 1, VHT supp 0
+bl_main_set_country_code: country code: CN
+[WF] country code CN used, num of channel 13
+country code:CN, support channel nums:13
+wifi init success!!
+[000626]<I> kv version:1.0
+[000628]<A> aos framework init.
+-Welcome to AliOS Things-
+[prt] log level set as: [ 5 ]
+
+--------Firmware info--------
+app: air_fresh,  board: tg7100cevb
+Host: qi
+Branch: 
+Hash: 
+Date: Oct  3 2024 18:12:34
+Kernel: AOS-R-1.3.4
+LinkKit: 2.3.0_FY_1.6.6-15
+APP: app-1.6.6-20241003.181234
+Region env: MAINLAND-ONLINE
+
+[MTD] >>>>>> Hanlde info Dump >>>>>>
+
+      name media
+      id 0
+      offset 001c5000(1855488)
+      size 00002000(8Kbytes)
+      xip_addr 231b4000
+[MTD] <<<<<< Hanlde info End <<<<<<
+
+media magic invalid.
+ali_factory_media_get res = -2
+[000678]<W> try secured ap config!
+[000682]<E> no valied ap config found!
+[000685]<A> get kv save switch state:1, ret:0
+[000690]<I> no history err_code found
+[000695]<A> combo device info not set!
+[000697]<A> scan factory ap, set led ON
+[WF][SM] reload tsen 
+[WF][SM] Exiting ifaceDown state
+[WF][SM] State Action ###ifaceDown### --->>> ###idle###
+[WF][SM] Entering idle state
+Disable Auto Reconnect
+[WF][SM] Exiting idle state
+[WF][SM] State Action ###idle### --->>> ###sniffer###
+[WF][SM] Entering sniffer state
+[002400]<D> apscan switch to chan 1
+[002600]<D> apscan switch to chan 6
+[002800]<D> apscan switch to chan 11
+[003000]<D> apscan switch to chan 1
+[003201]<D> apscan switch to chan 2
+[003401]<D> apscan switch to chan 3
+[003601]<D> apscan switch to chan 4
+[003801]<D> apscan switch to chan 5
+[004001]<D> apscan switch to chan 6
+[004201]<D> apscan switch to chan 7
+[004404]<D> apscan switch to chan 8
+[004605]<D> apscan switch to chan 9
+[004805]<D> apscan switch to chan 10
+[005005]<D> apscan switch to chan 11
+[005205]<D> apscan switch to chan 12
+[005405]<D> apscan switch to chan 13
+[005605]<D> apscan switch to chan 1
+[005605]<D> apscan 3405 ms
+[005608]<A> [FACTORY]scan factory AP result = 0
+[005612]<A> not enter factory mode, start awss
+[005617]<F> enable awss
+
+[WF][SM] Exiting sniffer state
+[WF][SM] State Action ###sniffer### --->>> ###idle###
+[WF][SM] Entering idle state
+[005630]<D> Breeze adv per device
+[005632]<D> normal adv
+Local addr got (00:00:00:00:00:00).
+ble_advertising_start, continue
+Advertising failed to start (err -11)
+[005644]<E> breeze_start_advertising 359 adv fail
+[005749]<A> IOTX_AWSS_START
+[005750]<F> __awss_start
+
+[005751]<I> zconfig_init
+
+Disable Auto Reconnect
+[WF][SM] Exiting idle state
+[WF][SM] State Action ###idle### --->>> ###sniffer###
+[WF][SM] Entering sniffer state
+[007267]<D> enr_frame init done(96)
+
+[005603]<A> not enter factory mode, start awss
+[005608]<F> enable awss
+
+[WF][SM] Exiting sniffer state
+[WF][SM] State Action ###sniffer### --->>> ###idle###
+[WF][SM] Entering idle state
+Local addr got (00:00:00:00:00:00).
+ble_advertising_start, continue
+Advertising failed to start (err -11)
+[005630]<E> breeze_start_advertising 359 adv fail
+[005735]<A> IOTX_AWSS_START
+[005735]<F> __awss_start
+
+Disable Auto Reconnect
+[WF][SM] Exiting idle state
+[WF][SM] State Action ###idle### --->>> ###sniffer###
+[WF][SM] Entering sniffer state
+[007255]<F> chan 1
+
+[007270]<F> chan 1
+
+[007300]<D> state_code:-0x0403, str_msg=[1] ssid:, mac:6ad0f517b0d0, chn:1, rssi:-63, adha:0
+[007307]<D> state_code:-0x0403, str_msg=[2] ssid:ChinaNet-YS6t, mac:b805abb6d396, chn:2, rssi:-45, adha
+[007316]<D> state_code:-0x0403, str_msg=[3] ssid:CU_f2C7, mac:b05d16c6a750, chn:2, rssi:-77, adha:0
+[007325]<D> state_code:-0x0403, str_msg=[4] ssid:......_plus, mac:f0b4294acab1, chn:1, rssi:-60, adha:0
+[007335]<D> state_code:-0x0403, str_msg=[5] ssid:Redmi_5B60, mac:3ccd57ef5b62, chn:1, rssi:-96, adha:0
+[007344]<D> state_code:-0x0403, str_msg=[6] ssid:......, mac:7844fd10dede, chn:1, rssi:-52, adha:0
+[007352]<D> state_code:-0x0403, str_msg=[7] ssid:ChinaNGB-LJBB7z, mac:7c08d98843e9, chn:1, rssi:-71, ad
+[007362]<D> state_code:-0x0403, str_msg=[8] ssid:早起_Wi-Fi5, mac:c2730b5f3580, chn:1, rssi:-95, adha
+[007386]<D> state_code:-0x0403, str_msg=[9] ssid:CMCC-uhSt, mac:28d0f517b0d3, chn:1, rssi:-63, adha:0
+[007422]<D> state_code:-0x0403, str_msg=[10] ssid:Air No.5 Legacy, mac:3023039f245c, chn:3, rssi:-67, a
+[007455]<D> state_code:-0x0403, str_msg=[11] ssid:早起, mac:c2730b5f3572, chn:1, rssi:-96, adha:0
+[007475]<D> state_code:-0x0403, str_msg=[12] ssid:ChinaNet-cHpA, mac:001f8ff7fbac, chn:1, rssi:-96, adh
+[007491]<D> state_code:-0x0403, str_msg=[13] ssid:TP-LINK_jx, mac:480eecf6d06d, chn:1, rssi:-94, adha:0
+[007548]<F> chan 6
+
+[007558]<D> state_code:-0x0403, str_msg=[14] ssid:XH_Home, mac:44f7702f356e, chn:7, rssi:-67, adha:0
+[007566]<D> state_code:-0x0403, str_msg=[15] ssid:, mac:46f7702f356e, chn:7, rssi:-66, adha:0
+[007580]<D> state_code:-0x0403, str_msg=[16] ssid:密码18, mac:dcd87c1360e7, chn:6, rssi:-39, adha:0
+[007590]<D> state_code:-0x0403, str_msg=[17] ssid:ChinaNet-102, mac:e01954037b4a, chn:6, rssi:-76, adha
+[007602]<D> state_code:-0x0403, str_msg=[18] ssid:, mac:e21954337b4a, chn:6, rssi:-76, adha:0
+[007622]<D> state_code:-0x0403, str_msg=[19] ssid:adi2333, mac:c4518dbc9db8, chn:5, rssi:-78, adha:0
+[007739]<D> state_code:-0x0403, str_msg=[20] ssid:ChinaNet-QXWn, mac:0860836f44de, chn:4, rssi:-64, adh
+[007747]<D> state_code:-0x0403, str_msg=[21] ssid:CMCC-XtgE, mac:28d0f518ac94, chn:6, rssi:-78, adha:0
+[007788]<D> state_code:-0x0403, str_msg=[22] ssid:TP-LIN-止戈为武, mac:603a7c4616e1, chn:6, rssi:-9
+[007802]<F> chan 11
+
+[007807]<D> state_code:-0x0403, str_msg=[23] ssid:CMCC-LRA5, mac:28d0f5f1d65c, chn:11, rssi:-67, adha:0
+[007815]<D> state_code:-0x0403, str_msg=[24] ssid:wang, mac:94f827acac7e, chn:11, rssi:-96, adha:0
+[007842]<D> state_code:-0x0403, str_msg=[25] ssid:CMCC-FbA7, mac:907e4396b14e, chn:10, rssi:-59, adha:0
+[007850]<D> state_code:-0x0403, str_msg=[26] ssid:HomeinnPlus, mac:5c02147d85f6, chn:11, rssi:-96, adha
+[007887]<D> state_code:-0x0403, str_msg=[27] ssid:CMCC-GUIDE-LINK, mac:96be09915119, chn:9, rssi:-72, a
+[007897]<D> state_code:-0x0403, str_msg=[28] ssid:202, mac:34ca815b2176, chn:11, rssi:-93, adha:0
+[007909]<D> state_code:-0x0403, str_msg=[29] ssid:, mac:6ad0f5f1d659, chn:11, rssi:-84, adha:0
+[007986]<D> state_code:-0x0403, str_msg=[30] ssid:Nninyourarea, mac:94be09915119, chn:9, rssi:-72, adha
+[008065]<F> chan 1
+
+[008081]<D> state_code:-0x0403, str_msg=[31] ssid:HUAWEI-A078HL, mac:e83f67ff36a7, chn:1, rssi:-94, adh
+[008320]<F> chan 2
+
+[008575]<F> chan 3
+
+[008831]<F> chan 4
+
+[009086]<F> chan 5
+
+[009342]<F> chan 6
+
+[009380]<D> state_code:-0x0403, str_msg=[32] ssid:, mac:6ad0f518ac91, chn:6, rssi:-97, adha:0
+[009597]<F> chan 7
+
+[009852]<F> chan 8
+
+[010012]<D> state_code:-0x0403, str_msg=[33] ssid:CMCC-VGu5, mac:14230aa49674, chn:8, rssi:-89, adha:0
+[010107]<F> chan 9
+
+[010362]<F> chan 10
+
+[010618]<F> chan 11
+
+[010873]<F> chan 12
+
+[011034]<D> state_code:-0x0403, str_msg=[34] ssid:ChinaNGB-LJ37Nt, mac:dc2a149381cd, chn:13, rssi:-94, 
+[011128]<F> chan 13
+
+[011175]<D> state_code:-0x0403, str_msg=[35] ssid:ChinaNGB-LJCRY6, mac:dc2a14336563, chn:13, rssi:-92, 
+[011383]<F> chan 1
+
+[011508]<D> state_code:-0x0403, str_msg=[36] ssid:ChinaNet-sEQz, mac:0c6abc56eebd, chn:1, rssi:-94, adh
+[011640]<F> chan 2
+
+[011894]<F> chan 3
+
+[012151]<F> chan 4
+
+[012195]<D> state_code:-0x0403, str_msg=[37] ssid:CMCC-eQUN, mac:9c635ba919a6, chn:4, rssi:-97, adha:0
+[012212]<D> state_code:-0x0403, str_msg=[38] ssid:CMCC-EVvf, mac:ac5aeeb15060, chn:4, rssi:-94, adha:0
+[012405]<F> chan 5
+
+[012660]<F> chan 6
+
+[012917]<F> chan 7
+
+[013171]<F> chan 8
+
+[013377]<D> state_code:-0x0403, str_msg=[39] ssid:CMCC-j26s, mac:607ecd96b54c, chn:8, rssi:-95, adha:0
+[013426]<F> chan 9
+
+[013681]<F> chan 10
+
+[013936]<F> chan 11
+
+[014195]<F> chan 13
+
+[014449]<F> chan 1
+
+[014704]<F> chan 6
+
+[014959]<F> chan 11
+
+[015214]<F> chan 1
+
+[015469]<F> chan 2
+
+[015724]<F> chan 3
+
+[015979]<F> chan 4
+
+[016234]<F> chan 5
+
+[016491]<F> chan 6
+
+[016535]<D> state_code:-0x0403, str_msg=[40] ssid:603, mac:e2241c98e653, chn:6, rssi:-98, adha:0
+[016745]<F> chan 7
+
+[017000]<F> chan 8
+
+[017256]<F> chan 9
+
+[017284]<D> state_code:-0x0403, str_msg=[41] ssid:Wang7, mac:34ce00367074, chn:9, rssi:-96, adha:0
+[017512]<F> chan 10
+
+[017766]<F> chan 11
+
+[018021]<F> chan 12
+
+[018276]<F> chan 13
+
+[018531]<F> chan 1
+
+[018787]<F> chan 2
+
+[019041]<F> chan 3
+
+[022883]<F> chan 3
+
+[022906]<D> state_code:-0x0403, str_msg=[45] ssid:CMCC-602, mac:e86e447e3620, chn:3, rssi:-90, adha:0
+[023138]<F> chan 4
+
+[023393]<F> chan 5
+
+[023648]<F> chan 6
+
+[023903]<F> chan 7
+
+[024158]<F> chan 8
+
+[024414]<F> chan 9
+
+[024669]<F> chan 10
+
+[024924]<F> chan 11
+
+[025179]<F> chan 12
+
+[025434]<F> chan 13
+
+[025689]<F> chan 1
+
+[025944]<F> chan 2
+
+[026199]<F> chan 3
+
+[026454]<F> chan 4
+
+[026709]<F> chan 5
+
+[026964]<F> chan 6
+
+AT[027222]<F> chan 7
+
+[027476]<F> chan 8
+
+[027731]<F> chan 9
+
+[027986]<F> chan 10
+
+[028242]<F> chan 11
+
+[028497]<F> chan 13
+
+[028752]<F> chan 1
+
+AT[029008]<F> chan 6
+
+[029264]<F> chan 11
+
+[029519]<F> chan 1
+
+[029774]<F> chan 2
+
+AT[030030]<F> chan 3
+
+[030284]<F> chan 4
+
+[030539]<F> chan 5
+
+[030794]<F> chan 6
+
+AT[031049]<F> chan 7
+
+[031304]<F> chan 8
+
+[031559]<F> chan 9
+
+[031815]<F> chan 10
+
+[032070]<F> chan 11
+
+[032325]<F> chan 12
+
+[032580]<F> chan 13
+
+[032835]<F> chan 1
+
+[033090]<F> chan 2
+
+[033345]<F> chan 3
+
+[033600]<F> chan 4
+
+[033855]<F> chan 5
+
+[034110]<F> chan 6
+
+[034365]<F> chan 7
+
+[034620]<F> chan 8
+
+[034874]<F> chan 9
+
+[035130]<F> chan 10
+
+[035384]<F> chan 11
+
+[035620]<A> clear awss flag
+[035639]<F> chan 13
+
+[035894]<F> chan 1
+
+[035967]<D> state_code:-0x0403, str_msg=[46] ssid:ChinaNet-gao, mac:bc2ef687a48c, chn:1, rssi:-92, adha
+free[036151]<F> chan 6
+
+[036406]<F> chan 11
+
+[036661]<F> chan 1
+
+[036918]<F> chan 2
+
+[037173]<F> chan 3
+
+[037428]<F> chan 4
+
+[037683]<F> chan 5
+
+[037940]<F> chan 6
+
+[038195]<F> chan 7
+
+[038449]<F> chan 8
+
+[038704]<F> chan 9
+
+[038959]<F> chan 10
+
+[039214]<F> chan 11
+
+free[039469]<F> chan 12
+
+[039724]<F> chan 13
+
+[039980]<F> chan 1
+
+[040235]<F> chan 2
+
+free[040490]<F> chan 3
+
+[040745]<F> chan 4
+
+[041000]<F> chan 5
+
+[041255]<F> chan 6
+
+[041286]<D> state_code:-0x0403, str_msg=[47] ssid:Huawei-Cjy, mac:24da333f3dac, chn:6, rssi:-93, adha:0
+[041510]<F> chan 7
+
+[041766]<F> chan 8
+
+[042020]<F> chan 9
+
+[042275]<F> chan 10
+
+[042530]<F> chan 11
+
+[042785]<F> chan 13
+
+[043040]<F> chan 1
+
+[043296]<F> chan 6
+
+[043552]<F> chan 11
+
+[043807]<F> chan 1
+
+[044065]<F> chan 2
+
+[044319]<F> chan 3
+
+[044575]<F> chan 4
+
+[044831]<F> chan 5
+
+[045085]<F> chan 6
+
+[045341]<F> chan 7
+
+[045596]<F> chan 8
+
+[045851]<F> chan 9
+
+[046106]<F> chan 10
+
+[046361]<F> chan 11
+
+[046619]<F> chan 12
+
+[046873]<F> chan 13
+
+[047128]<F> chan 1
+
+[047383]<F> chan 2
+
+[047638]<F> chan 3
+
+[047893]<F> chan 4
+
+[048148]<F> chan 5
+
+[048404]<F> chan 6
+
+[048424]<D> state_code:-0x0403, str_msg=[48] ssid:CMCC-uYEZ, mac:d4312718b5e8, chn:6, rssi:-94, adha:0
+[048659]<F> chan 7
+
+[048915]<F> chan 8
+
+[049170]<F> chan 9
+
+[049425]<F> chan 10
+
+[049680]<F> chan 11
+
+[049713]<D> state_code:-0x0403, str_msg=[49] ssid:Chinanet-2.4G-302, mac:cc2d2181dfb1, chn:11, rssi:-97
+[049936]<F> chan 13
+
+[050193]<F> chan 1
+
+[050449]<F> chan 6
+
+[050605]<D> state_code:-0x0403, str_msg=[50] ssid:25c829b1922d3123_miwifi, mac:46f7702f356e, chn:7, rss
+[050704]<F> chan 11
+
+[050959]<F> chan 1
+
+[051214]<F> chan 2
+
+[051469]<F> chan 3
+
+[051724]<F> chan 4
+
+[051979]<F> chan 5
+
+[052234]<F> chan 6
+
+[052490]<F> chan 7
+
+[052744]<F> chan 8
+
+[053000]<F> chan 9
+
+[053255]<F> chan 10
+
+[053510]<F> chan 11
+
+[053765]<F> chan 12
+
+[054020]<F> chan 13
+
+[054275]<F> chan 1
+
+[054530]<F> chan 2
+
+[054785]<F> chan 3
+
+[055040]<F> chan 4
+
+[055295]<F> chan 5
+
+[055550]<F> chan 6
+
+[055805]<F> chan 7
+
+[056061]<F> chan 8
+
+[056316]<F> chan 9
+
+[056571]<F> chan 10
+
+[056826]<F> chan 11
+
+[057082]<F> chan 13
+
+[057336]<F> chan 1
+
+[057591]<F> chan 6
+
+[057847]<F> chan 11
+
+[058102]<F> chan 1
+
+[058357]<F> chan 2
+
+[058612]<F> chan 3
+
+[058867]<F> chan 4
+
+[059122]<F> chan 5
+
+[059377]<F> chan 6
+
+[059619]<D> state_code:-0x0403, str_msg=[51] ssid:LC, mac:42701b63e3df, chn:6, rssi:-93, adha:0
+[059632]<F> chan 7
+
+[059888]<F> chan 8
+
+[060142]<F> chan 9
+
+[060397]<F> chan 10
+
+[060655]<F> chan 11
+
+[060910]<F> chan 12
+
+[061165]<F> chan 13
+
+[061420]<F> chan 1
+
+[061678]<F> chan 2
+
+[061932]<F> chan 3
+
+[062189]<F> chan 4
+
+[062444]<F> chan 5
+
+[062700]<F> chan 6
+
+[062955]<F> chan 7
+
+[063210]<F> chan 8
+
+[063465]<F> chan 9
+
+[063720]<F> chan 10
+
+����
